@@ -40,7 +40,7 @@ body{
     color: black;
 }
 .navbar{
-    margin-top: -4px; /*idk why the a tag on the image adds a margin. cant get rid of it in a clean way */
+    margin-top: -6px; /*idk why the a tag on the image adds a margin. cant get rid of it in a clean way */
 
 
     display:flex;
