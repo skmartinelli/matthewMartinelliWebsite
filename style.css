@@ -1,0 +1,70 @@
+
+html, body
+{
+    margin: 0px; padding: 0px
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+
+.Banner{
+
+   height:2000px;
+    background-color: whitesmoke;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.content img{
+       width:100%;
+       height: auto;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    height:50px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    
+    background-color: black;
+    /*border: 2px solid #4CAF50; */
+}
+
+.navbar a{
+    float: left;
+    color: #f2f2f2c3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+.navbar a:hover {
+    background-color: rgb(69, 69, 69);
+    /* Nice */
+  }
+
+.navbar a.active {
+
+    color: white;
+    }
+
+
+.linkBox{
+
+
+    border:yellow;
+    color:white;
+    width:200px;
+}
