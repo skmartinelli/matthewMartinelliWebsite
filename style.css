@@ -27,7 +27,22 @@ body{
        height: auto;
 }
 
+.top{
+    
+    text-align: left;
+        margin:20px;
+}
+.top a{
+    font-size:25px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
 .navbar{
+    margin-top: -4px; /*idk why the a tag on the image adds a margin. cant get rid of it in a clean way */
+
+
     display:flex;
     flex-direction: row;
     height:50px;
