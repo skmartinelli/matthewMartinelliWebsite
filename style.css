@@ -1,15 +1,31 @@
 
-html, body
+
+
+html, body, a
 {
     margin: 0px; padding: 0px
     
 }
 
+img {
+    vertical-align: middle;
+}
+/* 
+Above is fix for weird whitespace underneath nested image. Quote from stackoverflow:
+
+"This problem is caused by the image behaving like a character of text (and so leaving a space below it where the hanging part of a 
+'y' or 'g' would go), and is solved by using the vertical-align CSS property to indicate that no such space is needed. 
+Almost any value of vertical-align will do; I'm fond of middle, personally."
+*/
+
 body{
     background-color: whitesmoke;
 }
 
-
+.content a{
+    border-color:red;
+    border-radius: 10px;
+}
 .Banner{
 
    height:2000px;
@@ -25,6 +41,10 @@ body{
 .content img{
        width:100%;
        height: auto;
+}
+
+.content a{
+    margin-bottom: 0px;
 }
 
 .top{
@@ -82,3 +102,7 @@ body{
     color:white;
     width:200px;
 }
+
+
+
+
