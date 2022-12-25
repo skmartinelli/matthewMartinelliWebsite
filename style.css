@@ -1,10 +1,14 @@
-
-
-
 html, body, a
 {
     margin: 0px; padding: 0px
     
+}
+
+
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 }
 
 img {
@@ -21,6 +25,65 @@ Almost any value of vertical-align will do; I'm fond of middle, personally."
 body{
     background-color: whitesmoke;
 }
+h1{
+    font-size:2.0rem;
+}
+h2{
+    font-size: 1.3rem;
+}
+.columns{
+    display:flex;
+}
+
+.columns p{
+    margin-top:0;
+}
+
+.leftColumn{
+    text-align: left;
+    margin-left:20px;
+}
+
+
+
+.purchase {
+    font-size:0.8rem;
+    color:#666;
+
+}
+
+.purchase li{
+    list-style-type: square;
+}
+
+.purchase a{
+    text-decoration: none;
+    cursor:pointer;
+    color:blue;
+}
+
+.purchase a:visited{
+    text-decoration: none;
+    color:purple;
+}
+
+.purchase a:hover, a:focus{
+    color:dodgerblue;
+}
+
+.purchase a:active{
+    color:red;
+}
+
+.purchase h3{
+    color:black;
+    margin-top: 32px;
+    font-size:1rem;
+}
+
+.purchase li{
+    text-align: left;
+}
 
 .content a{
     border-color:red;
@@ -33,6 +96,7 @@ body{
 }
 
 .content{
+
     display:flex;
     flex-direction: column;
     text-align: center;
@@ -102,7 +166,6 @@ body{
     color:white;
     width:200px;
 }
-
 
 
 
