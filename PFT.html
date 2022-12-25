@@ -2,32 +2,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Matthew Martinelli</title>
     <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 
+    
+
     <div class="content">
-        <img id="artista" src="artista.jpeg">
+
+        
         <div class="navbar">
-            
-        <a href="index.html">Home</a> 
-        <a class = "active" href="PFT.html"> Past, Future, Tense</a>
-        <a href="rising.html"> A New Son Rising</a>
-        <a href="author.html">About The Author</a> 
-        <a href="gallery.html">Gallery</a> 
-        <a href="contact.html">Contact</a> 
+                
+            <a href="index.html">Home</a> 
+            <a class = "active" href="PFT.html"> Past, Future, Tense</a>
+            <a href="rising.html"> A New Son Rising</a>
+            <a href="author.html">About The Author</a> 
+            <a href="gallery.html">Gallery</a> 
+            <a href="contact.html">Contact</a> 
 
         </div>
+
+        
+        <div class="mobileNavbar">
+            
+                <div class="menuIcon" onclick="toggleMobileMenu(this)">
+                <div class = "button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="4" y1="6" x2="20" y2="6" />
+                        <line x1="4" y1="12" x2="20" y2="12" />
+                        <line x1="4" y1="18" x2="20" y2="18" />
+                    </svg>
+                    <p> Menu</p>
+                </div>
+
+
+                <div class="mobileMenu">
+                    <a class="active" href="index.html">Home</a> 
+                    <a href="PFT.html"> Past, Future, Tense</a>
+                    <a href="rising.html"> A New Son Rising</a>
+                    <a href="author.html">About The Author</a> 
+                    <a href="gallery.html">Gallery</a> 
+                    <a href="contact.html">Contact</a> 
+                </div>
+            </div>
+
+                
+
+            
+            
+            
+        </div>
+        <a id="linkImage" href = "index.html" ><img id="artista" src="mmart3.jpg"></a>
+        
+
     
-            <p> this is filler content. i will later fill it in</p>
-            <div class="Banner"> This is Past future tense and <a href="https://www.amazon.com/Past-Future-Tense-Matthew-Martinelli/dp/1653405465/ref=sr_1_1?keywords=matthew+martinelli&qid=1583001829&sr=8-1">here</a>  is a link to the amazon book</div>
+         
+        
+        <section class="columns">
+            <section class = "leftColumn">
+            <h1>
+                A New Son Rising
+           </h1>   
+            <p>
+                This the webpage of author Matthew A. Martinelli. A New Son Rising is the working title of his first novel.  He’s now working on his second novel and hopes to write many more.
+            </p>
+            </section>
+            <section class="purchase">
+                <h3> Available for Purchase</h3>
+                <ul>
+                    <li> <a href="amazon.com"> Purchase Kindle edition: Past, Future, Tense</a> -- Kindle edition of the 14 story collection</li>
+                </ul>
+
+            </section>
+        </section>
+
+       
+
+        <ol> TODO:
+            <li> Add content</li>
+            <li> add mobile support</li>
+            <li> consult w dad</li>
+            <li> fix banner on other pages, update to feedback</li>
+        </ol>
+
+        <div class="Banner"> <br><br><br>this space left intentionally left blank (temp scrolling test) </div>
         
             <p> hello this is matthew martinelli website! </p>
     </div>
-
+    <script src="index.js"></script>
 </body>
 </html>
