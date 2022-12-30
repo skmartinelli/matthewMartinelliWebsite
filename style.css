@@ -40,6 +40,7 @@ h2{
 }
 
 .leftColumn{
+    width:85%;
     text-align: left;
     margin-left:20px;
 }
@@ -240,6 +241,8 @@ h2{
         margin-top: 20px;
     }
 
+    
+
     .mobileNavbar p{
         display:inline;
         margin-left:10px;
@@ -260,3 +263,6 @@ h2{
 
     /* … */
   }
+  .pftbanner{
+    cursor:pointer;
+}
